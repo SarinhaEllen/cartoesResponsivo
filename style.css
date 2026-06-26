@@ -4,6 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid gray;
+    border-radius: 15px;
 }
 
 .caixote img{
@@ -12,9 +14,16 @@
 }
 
 .item h2{
-    display: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .item p{
     padding: 5px;
     text-align: justify;
+}
+button{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: dodgerblue;
 }
